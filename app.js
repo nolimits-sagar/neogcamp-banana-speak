@@ -1,2 +1,11 @@
-var userAnswer = prompt("give me your username")
-alert("This script works!" + userAnswer)
+var btnTranslate = document.querySelector("#btn-translate");
+var txtInput = document.querySelector("#txt-input");
+var outputDiv = document.querySelector("#output");
+
+
+ function clickHandler() {
+    outputDiv.innerText = "dvfbtrbtrbg" + txtInput.value;
+   
+};
+
+btnTranslate.addEventListener("click", clickHandler)
